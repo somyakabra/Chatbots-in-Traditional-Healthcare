@@ -1,0 +1,158 @@
+\documentclass[12pt]{article}
+\usepackage{pgf}
+\usepackage{pgfpages}
+\usepackage{hyperref}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{2pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+\usepackage[margin=1.in,includefoot]{geometry}
+
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{mathpazo} 
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+\begin{document}
+
+\newcommand{\HRule}{\rule{\linewidth}{70mm}}
+\center
+
+\textsc{\Huge Chatbots in traditional healthcare}\\[1cm]
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.9]{NIT-Raipur-logo-3 (1) (1).jpg}
+\end{figure}
+
+
+	\begin{minipage}{0.5\textwidth}
+		\begin{flushleft}
+		\Large
+			\underline{ Submitted By:}
+			\newline
+
+          		Somya Kabra \\
+			   Roll No : 21111061 \\
+			   Section and Branch -\\Sec ``A'' Biomedical \\
+			   Email id : somyakabra0@gmail.com \\
+			   1st Sem
+
+			\end{flushleft}
+	\end{minipage}
+	~
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushright}
+			\Large
+			\underline{ Submitted To :}\\
+            \newline
+
+			Dr. Saurabh Gupta \\ Department of Biomedical Engineering\\
+            NIT Raipur,\\ Chattishgarh,\\
+             India, 492013\\
+
+
+
+
+		\end{flushright}
+	\end{minipage}
+
+\newpage
+\centering
+\section*{\Huge Acknowledgement}
+\raggedright
+\LARGE I am grateful to Dr. Saurabh Gupta for their proficient supervision of the term project on "Blockchain in Healthcare(Prevention from Data tampering and Scams) ”. I am very thankful to department for their continous guidance and support.\\
+
+\raggedleft
+
+\vspace{70mm}
+
+\textbf{Somya Kabra}
+\\ \textbf{Roll No:} 21111061
+
+
+1st semester,
+\\ Biomedical Engineering
+\\National Institute of Technology,Raipur
+
+\raggedright 
+\vspace{110mm}
+\section*{ \Huge Abstract }
+\Large
+\raggedright
+Chatbots are software developed with machine learning algorithms, including natural language processing (NLP), to stimulate and engage in a conversation with a user to provide real-time assistance to patients.
+Chatbots have already gained traction in retail, news media, social media, banking, and customer service. Many people engage with chatbots every day on their smartphones without even knowing. From catching up on sports news to navigating bank applications to playing conversation-based games on Facebook Messenger, chatbots are revolutionizing the way we live.
+Healthcare payers, providers, including medical assistants, are also beginning to leverage these AI-enabled tools to simplify patient care and cut unnecessary costs. Whenever a patient strikes up a conversation with a medical representative who may sound human but underneath is an intelligent conversational machine — we see a healthcare chatbot in the medical field in action. 
+
+
+
+\section*{ \Huge Introduction }
+Chatbots are replacing phone call-based customer service in various sectors. The healthcare industry is opting for Chatbots to help patients in resolving their concerns faster than traditional methods. In the healthcare sector, the patient’s experience remains at the top priority. These days the patient-driven healthcare environment is helping the patient to make better decisions.To remain spontaneous, it is the time for the healthcare services to embrace consumer readiness for digital communication via AI chatbot. This can help to deepen patient engagement that leads to better health outcomes. With AI Chatbots healthcare systems can accelerate the leap to add values for patient healthcare.
+Chatbots in healthcare can offer the best health care service. Smart Chatbots can help a patient to schedule a follow-up instantaneously. It offers distinctive automated conversational interactions with quality experience of care. A chatbot is a way ahead to improve 24/7 customer service and assist patients with processing every service request faster than ever before.
+
+\includegraphics[scale=0.5]{bme1.jpg}\\
+A chatbot is a computer program designed to simulate human conversation. And, crucially, it works independently from a human operator. chatbots have come a long way since the era of rock and roll and psychedelic prints, and you've probably witnessed much of this evolution yourself. Unfortunately, chatbots have suffered a PR crisis for a long time - early, widely accessible chatbots were fraught with many problems. They often misunderstood what humans were trying to say, gave erroneous answers, or sent people in circles. As a result, interacting with a chatbot could be a lackluster experience at best and a maddeningly frustrating one at worst. However, the overall benefits of chatbots (reduced need for expensive human labor, 24/7 operation, and faster response times) encouraged developers to press on and develop better versions.
+\includegraphics[scale=0.4]{bme3}
+Healthcare is all about offering the services to the patient without any delay or any compromise. Healthcare service providers can implement the Chatbot services from scheduling an appointment to paying bills.AI chatbots utilize cutting-edge technology like machine learning, neural networks, natural language processing, and other forms of artificial intelligence to communicate more humanly. They aren't stumped by uncommon dialects or vocabulary, can infer tone and sentiment even when not explicitly stated, and most importantly, become more capable over time. Through machine learning, AI chatbots become more adept at communicating with humans, and they do this on their own, without human intervention. AI chatbots utilize cutting-edge technology like machine learning, neural networks, natural language processing, and other forms of artificial intelligence to communicate more humanly. They aren't stumped by uncommon dialects or vocabulary, can infer tone and sentiment even when not explicitly stated, and most importantly, become more capable over time. Through machine learning, AI chatbots become more adept at communicating with humans, and they do this on their own, without human intervention. 
+\section*{ \LARGE INFORMATIVE CHATBOTS }
+Informative chatbots provide helpful information for users, often in the form of pop-ups, notifications, and breaking stories. Generally, informative bots provide automated information and customer support.
+If you look up articles about flu symptoms on WebMD, for instance, a chatbot may pop up with information about flu treatment and current outbreaks in your area.
+Health news websites and mental health websites also use chatbots to help them access more detailed information about a topic.
+ \includegraphics[scale=0.5]{Chatbot.jpg}
+\newline
+CONVERSATIONAL CHATBOTS\newline
+Conversational chatbots are built to be contextual tools that provide responses based on the user’s intent. However, there are different levels of maturity to a conversational chatbot – not all of them offer the same depth of conversation.
+
+For instance, a Level 1 maturity chatbot only provides pre-built responses to clearly-stated questions without the capacity to follow through with any deviations.These responses are pre-built. At this level of maturity, the chatbot cannot generate answers if John continues with further questions. A level 2 intelligence chatbot, in contrast, can do that.
+
+conversational chatbot :- conversation Conversational chatbots with higher intelligence levels can understand the context better and provide more than pre-built answers. This is because these chatbots look at a conversation as a whole rather than processing sentences in isolation.
+
+The higher intelligence of a chatbot, the more personal responses one can expect. That’s when conversations start to resemble human interactions.
+Conversational chatbots use natural language processing (NLP) and natural language understanding (NLU), applications of AI that enable machines to understand human language and intent.
+
+\section*{\LARGE Europe to Dominate the Healthcare Chatbots Market through 2026}
+The global healthcare chatbots market is expected to witness significant growth in the forecast period, 2022-2026. Chatbots are defined as interactive applications to assist the interaction with humans using the textual conversation process. They use artificial intelligence technology to generate insights and take informed actions. These healthcare chatbots use on-premises or cloud-based software and aid the user to know about the symptoms, find hospitals, and book appointments. Therefore, the healthcare chatbots save the clinical staff to indulge in these activities and lets them focus on other essential chores. An increase in the adoption of healthcare chatbots and the growing usage of smart devices is expected to fuel the market growth in the next five years. The surge in the downloads of healthcare applications and the technological advancements of artificial intelligence technology is further influencing the growth of the healthcare chatbots market. 
+\Large
+\section*{\Huge Conclusion: }
+To eliminate human bias from encounters, the best approach is to use a chatbot. Chatbots can enhance the number of valid responses during a conversation by using natural language processing.
+The healthcare business continues to adopt Chatbots as a way to improve health-related services throughout time. AI Chatbots are the most effective technique to meet patient expectations for speedy customer service by driving consumer-centric patient expectations.
+
+
+
+\section*{\Huge References:}
+\normalsize
+\url{https://chatbotsmagazine.com/overcoming-the-patient-healthcare-challenges-with-ai-chatbots-a30ea0bd6119}.
+\\
+\vspace{3mm}
+\url{https://topflightapps.com/ideas/chatbots-in-healthcare/#1}
+\\\vspace{3mm}
+
+\url{https://www.hyro.ai/post/5-ways-ai-chatbots-are-changing-the-u-s-healthcare-industry}
+
+
+
+
+
+
+
+
+
+\end{document}
